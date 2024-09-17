@@ -1,0 +1,59 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #181818;
+    color: white; 
+}
+form{
+    width: 70rem;
+    background-color: #0e1010;
+    padding: 2rem 0rem;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    
+}
+legend{
+    text-align: center;
+    font-size: 1.6em;
+    color: #8e999a;
+}
+input, textarea{
+    margin: 1em 0;
+    background-color: rgba(0,0,0,.3);
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #bbb;
+    color: white;
+    resize: none;
+}
+input{
+    padding: 1em;
+}
+input:focus, textarea:focus{
+    background-color: #cccccc42;
+    border-bottom-color: green;
+}
+input:focus:invalid, textarea:focus:invalid{
+    border-bottom-color: red;
+}
+button{
+    width: fit-content;
+    padding: 1.5rem;
+    color: white;
+    background-color: #2a2727;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    margin-left: auto;
+}

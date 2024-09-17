@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+:root{
+    --primary-color: #3a68b7;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+form{
+    width: 32em; 
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 2em 1em;
+    box-shadow: -8px 0 0 rgb(0 0 0 / .3);
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.form_title{
+    color: var(--primary-color);
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+label{
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 300;
+    margin-top: .8em;
+    margin-bottom: .2em;
+}
+input{
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    padding: 1.6rem 0em;
+    font-size: 1.2em;
+    transition: padding-left .1s;
+}
+input:focus{
+    padding-left: .7rem;
+    outline-color: var(--primary-color);
+}
+.actions{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+}
+.btn{
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1.5rem;
+    border: none;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.btn_2{
+    background-color: #fff;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.other_actions{
+    flex-grow: 1;
+    text-align: right;
+    text-decoration: none;
+    color: #7a7a7a;
+    font-size: .9em;
+}
+.login{
+    text-decoration: none;
+    color: #333131;
+}
