@@ -1,2 +1,2 @@
 # Projetos_front-end_02
-Layout básico de um site, feito para estudar a estrutura html e css básico. Nesses projetos, formulários tiveram ênfase no estudo. Validação(de dados no front), estilização e etc..
+Três pequenos projetos de HTML e CSS, realizados com o intuito de estudar a estrutura bem organizada com HTML e estilização visual interresante e intuitiva com CSS. Trata-se de Três relatorios, aonde o projeto xxx e xxxx, são formularios que passam por um processo de validação com front-end(HTML) antes de possibilitarem que o conteudo do form seja enviado. Acessando as pasta é possivel encontrar demostrações visuais e maiores explicações. 
