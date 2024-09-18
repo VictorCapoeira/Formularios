@@ -20,3 +20,7 @@
 ![image](https://github.com/user-attachments/assets/a31af58c-270d-48aa-b301-abf1026804b5)
 ![image](https://github.com/user-attachments/assets/9a8b6cc4-97cf-42a5-a9af-d4692c4dbae5)
 
+## Observações: 
+É importante ressaltar que todas as validaçãoes foram realizadas apenas no HTML, sendo assim, é recomendando que outras validações sejam efetuadas usando uma linguagem de pogramação, como JS.
+
+
